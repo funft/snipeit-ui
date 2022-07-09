@@ -1,0 +1,44 @@
+.header{
+    background-color: #3c8dbc;
+    color: white;
+    height: 52.8px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.leftNav{
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+}
+
+.rightNav{
+    width: 832.81px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    li{
+        height: 50px;
+        // width: 43px;
+        margin-right: 10px;
+        svg{
+            width: 11.375px;
+            height: 13px;     
+        }
+    }
+}
+
+.userMenu{
+
+    img{
+        width: 25px;
+        height: 25px;
+    }
+}
